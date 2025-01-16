@@ -1,0 +1,17 @@
+.navbar {
+    background-color: whitesmoke;
+    color: black;
+}
+.nav-link {
+    color: black;
+}
+.navbar-toggler {
+    color: black;
+    background-color: #2b2b28;
+}
+.navbar-nav, .nav-item, .nav-link {
+    color: black;
+}
+.card {
+    border: none;
+}
