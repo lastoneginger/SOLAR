@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>SolarExpert Chile Soluciones Solares</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+
+    <!-- Agregados -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="/img/logos/SOLAREXPERT-SOLUCIONES-FAVICON-LOGO-01.png">
+    <!-- Fin de agregados -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 5;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+
+  <!--Contenido WEB-->
+  <body>  
+    <header data-bs-theme="white">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logos/SOLAREXPERT-SOLUCIONES-LOGO-01.png" class="img-thumbnail" alt="SolarExpert Chile" width="70%" height="auto" style="border: none;"></a>
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#carrosSolares">Carros Solares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#industrialInfo">industrial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#domesticoInfo">Domestico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="https://wa.me/+5691281690"><b>Contacto</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <main data-bs-spy="scroll" data-bs-target="#navId" data-bs-smooth-scroll="true" tabindex="0">
+
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" width="100%" height="" src="banners/PANELES-BANNER-1400X512PX-01.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="auto" fill="var(--bs-secondary-color)"/></img>
+          <!-- <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Energía solar en Chile</h1>
+              <p>Nuestro país es especialmente privilegiado en cuanto a la incidencia solar que recibe.</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!--Titulo Pirncipal H1-->
+    <div class="container">
+      <h1><b>Soluciones solares a la medida:</b> industriales, particulares, trailers, faenas y más.</h1>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card text-bg-primary shadow">
+            <img src="banners/SOLAREXPERT-QUIENES-SOMOS-400X250PX-01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Quienes somos</h3>
+              <p class="card-text">Somos Solar Expert, una empresa 100% chilena dedicada a impulsar el desarrollo e implementación de proyectos solares, entregamos soluciones integrales tanto para personas como empresas por parte de un equipo joven y muy profesional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-bg-primary shadow">
+            <img src="banners/SOLAREXPERT-NUESTRA-MISION-400X250PX-01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Misión</h3>
+              <p class="card-text">Desarrollar proyectos energéticos eficientes, ambientalmente amigables y que encuentren su propia sustentabilidad, para así, avanzar juntos y contribuir a un mundo mas limpio, más consciente, y más saludable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- START THE FEATURETTES -->
+
+    <div class="container">
+      <h2 id="carrosSolares">Carros solares</h2>
+      <p>Nuestro país es especialmente privilegiado en cuanto a la incidencia solar que recibe.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="banners/SOLAREXPERT-CARRO-SOLAR-500X500PX-01.jpg" class="card-img-top" alt="...">
+            <!--
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>-->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="banners/SOLAREXPERT-CARRO-SOLAR-500X500PX-02.jpg" class="card-img-top" alt="...">
+            <!--
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>-->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="banners/SOLAREXPERT-CARRO-SOLAR-500X500PX-03.jpg" class="card-img-top" alt="...">
+            <!--
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!--secion Proyectos Indrustial-->
+    <div class="container">
+      <h2 id="industrialInfo">Proyectos Industriales</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">El <b>área industrial</b> se encarga de que las <b>PYMES</b> puedan lograr tener <b>energía gratis,</b> con la menor inversión posible y con el mejor subsidio al que se pueda optar según las opciones que estén disponibles.
+              </p>
+            </div>
+            <img src="banners/SOLAREXPERT-PROYECTO-INDUSTRIALES-500X500PX-02.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Proyecto Parque Reserva El Maitén</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Queremos destacar que aparte de ayudar a tu economía también estás aportando un granito de arena al <b>cuidado de nuestro planeta,</b> ya que por cada kwh que generas con energía solar, dejas de emitir 458 gr de CO2 a nuestra atmósfera.</p>
+            </div>
+            <img src="banners/SOLAREXPERT-PROYECTO-INDUSTRIALES-500X500PX-01.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Medio Ambiente</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text"><b>Operamos y monitoreamos</b> equipos de energía FV, con el fin de que nuestros clientes no tengan preocupación alguna. De esta manera las fallas se solucionan de manera más rápida y se logra una mayor eficiencia y generación por parte del equipo.
+              </p>
+            </div>
+            <img src="banners/SOLAREXPERT-PROYECTO-INDUSTRIALES-500X500PX-03.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Monitoreos al detalle</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!--secion Proyectos Residencial-->
+    <div class="container">
+      <h2 id="domesticoInfo">Proyectos Domesticos</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">El área residencial se encarga de los proyectos residenciales, habitacionales, donde el objetivo es <b>proveer de energía a una casa</b> o a un <b>conjunto de éstas.</b></p>
+            </div>
+            <img src="banners/SOLAREXPERT-PROYECTO-RESIDENCIAL-500X500PX-02.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Servicio de cálidad</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text"> El tipo de instalación, qué tipo de paneles, la capacidad instalada, inversores, etc. será determinado por <b>nuestro equipo técnico</b> en base a las condiciones del lugar, la ubicación, el consumo y si existe o no red eléctrica y se quiere un sistema conectado o no a la red.</p>
+            </div>
+            <img src="banners/SOLAREXPERT-MANITOREO-ENERGIA-SOLAR-PANELES-PV-500X500PX-01.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Monitoreo y Mantención</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Nuestro objetivo es lograr el <b>mayor ahorro posible,</b> con la menor inversión posible, generando así una recuperación de la inversión rápida y segura.
+              </p>
+            </div>
+            <img src="banners/SOLAREXPERT-PROYECTO-RESIDENCIAL-Puertecillo-500X500PX-01.jpg" class="card-img-top" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Proyecto Residencial Puertecillo</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col border border-light">
+        <div class="card text-bg-primary shadow h-100">
+          <div class="card-body">
+            <h3 class="card-title" id="domesticoInfo">Proyectos Domestico</h3>
+            <p class="card-text"><img src="banners/SOLAREXPERT-PROYECTO-RESIDENCIAL-500X500PX-01.jpg" class="card-img-top" alt="..."><br><br>El área residencial se encarga de los proyectos residenciales, habitacionales, donde el objetivo es proveer de energía a una casa o a un conjunto de éstas. El tipo de instalación, qué tipo de paneles, la capacidad instalada, inversores, etc.<br><br> Será determinado por nuestro equipo técnico en base a las condiciones del lugar, la ubicación, el consumo y si existe o no red eléctrica y se quiere un sistema conectado o no a la red. Nuestro objetivo es lograr el mayor ahorro posible, con la menor inversión posible, generando así una recuperación de la inversión rápida y segura.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col border border-light">
+        <div class="card text-bg-primary shadow h-100">
+          <div class="card-body">
+            <h3 class="card-title" id="industrialInfo">Proyectos Industriales</h3>
+            <p class="card-text"><img src="banners/SOLAREXPERT-PROYECTO-PYME-500X500PX-01.jpg" class="card-img-top" alt="..."><br><br>El <b>área industrial de SOLAEXPERT</b> se encarga de que las PYMES puedan lograr tener <b>energía gratis,</b> con la <b>menor inversión posible</b> y con el mejor subsidio al que se pueda optar según las opciones que estén disponibles.</p>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <hr class="featurette-divider">
+
+    <div class="container-fluid ">
+      <h2>Sistemas de conexión</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-body">
+              <h3 class="card-title">ON-GRID</h3>
+              <p class="card-text">El concepto <b>On-Grid (En Red)</b> hace referencia al tipo de instalación que se encuentra <b>conectado a la red de distribución,</b> permitiendo que los clientes puedan generar y consumir energía solar, pero con el <b>respaldo de la red eléctrica</b> en casos de que su empresa o residencia consuma más energía de la generada por los paneles.<br><img src="banners/SOLAREXPERT-SISTEMA-ONGRID-400X250PX-01.jpg" class="card-img-top" alt="Sistema On Grid conexión de energía Chile"><br>Sin embargo, cuando ocurre el caso contrario, el <b>sistema On-Grid</b> permite inyectar los excedentes a la red eléctrica lo cual se respalda con la promulgación de la Ley 20.571, también conocida como <b>Ley Net Billing o Ley de Generación Ciudadana,</b> la cual permite que los clientes reciban un pago por cada kWh tarificado en el medidor, ayudando a disminuir significativamente la cuenta de electricidad pudiendo ser esta $0, e incluso poder inyectar el superávit de energía que significó un pago de la red eléctrica local a tu bolsillo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-body">
+              <h3 class="card-title">OFF-GRID</h3>
+              <p class="card-text">El concepto <b>Off-Grid o fuera de red,</b> hace referencia al tipo de instalación que no requiere estar conectado a la red ya que cuenta con un conjunto de baterías capaz de almacenar toda la energía generada durante el día, y de esta forma, poder ser utilizada en cualquier momento, siendo un sistema totalmente <b>independiente y autónomo,</b> utilizado comúnmente en áreas aisladas.<br><img src="banners/SOLAREXPERT-SISTEMA-OFFGRID-400X250PX-01.jpg" class="card-img-top" alt="..."><br> Por esta misma razón es que suele ser <b>más costoso</b> que el sistema on grid.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="accordion" id="accordionExample">
+      <h2 class="h2">Beneficios de instalar paneles solares</h2>
+      <p>Al instalar paneles solares, estás accediendo a una serie de beneficios muy prácticos para tu casa o empresa, relacionados a la economía, la innovación y la sustentabilidad</p>
+      <p><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Reduce tu gasto de energía
+      </button>&nbsp;<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+        Ayudas al medio ambiente
+      </button>&nbsp;<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+        Energía inagotable
+      </button>&nbsp;<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+        Bajo costo de mantención
+      </button>&nbsp;<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+        Plusvalía de tu propiedad
+      </button></p>
+      
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Si generas tu propia electricidad, significa que utilizarás menos tu proveedor de electricidad, dejando de depender en un 100% de la red de distribución. Esto se traducirá inmediatamente en ahorros en tu cuenta de electricidad, comenzando a recuperar la inversión desde el momento en que los paneles comiencen a funcionar. Con el tiempo, tu proyecto se pagará por sí solo gracias a estos ahorros.
+        </div>
+      </div>
+      
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+          La energía solar tiene el menor impacto en el medio ambiente en comparación con cualquier otra fuente de energía. No produce gases de efecto invernadero y no contamina el agua. Además, la producción de energía solar no genera ruido, lo que es un gran beneficio para ti, y el entorno que te rodea. 
+        </div>
+      </div>
+      
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+          Nuestro sol no se apagará por lo pronto, estando disponible aún por los próximos 5 millones de años según la NASA. Esto significa que tendrás acceso a una fuente inagotable de energía mientras tengas sol.
+        </div>
+      </div>
+      
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+          Una vez instalado, un sistema fotovoltaico requerirá de poco mantenimiento, básicamente su funcionamiento depende de la limpieza de la superficie (para captar mayor radiación) y de la disponibilidad de la planta (debe estar prendida). Los paneles solares generarán electricidad de forma silenciosa y limpia durante 25 a 40 años.
+        </div>
+      </div>
+
+      <div class="collapse" id="collapseExample5">
+        <div class="card card-body">
+          Nuestras instalaciones solares no solamente mejoran la red eléctrica interna de nuestros clientes, también suman valor a los inmuebles al desarrollar un activo capaz de generar grandes ahorros en el corto plazo.
+        </div>
+      </div>
+  
+    </div>
+    <!-- /END THE FEATURETTES -->
+    <hr class="featurette-divider">
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Inicio</a></p>
+    <p><b>SolarExpert® Chile, 2024.</b><br>Todos los derechos reservados.</p>
+  </footer>
+</main>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
